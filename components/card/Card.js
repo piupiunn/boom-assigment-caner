@@ -37,7 +37,7 @@ export default function Card() {
                 .replace("&#8221;", "'")
                 .replace("&#8220;", "")}
             </h3>
-            {/**eğer apiden 100 karakterden fazla bir paragraf gelirse, substring metoduyla 100. karakterden sonra ... gösterilmesini sağladım. Bu ilerde api kaynaklı oluşabilecek potansiyel bir görsel hatanın da önüne geçecektir. */}
+
             <p>
               {data.excerpt.rendered
                 .replace("&#8217;", "'")
