@@ -1,0 +1,14 @@
+.categoriesParent {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 5px;
+  width: 1100px;
+}
+.categories {
+  width: 100px;
+  height: 100px;
+  border: 1px solid grey;
+}
+.categories h5 {
+  text-align: center;
+}
