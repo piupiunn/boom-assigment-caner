@@ -34,15 +34,19 @@ export default function Card() {
 
               {data.title.rendered
                 .replace("&#8217;", "'")
+                .replace("&#8217;", "'")
                 .replace("&#8221;", "'")
+                .replace("&#8230;", "'")
                 .replace("&#8220;", "")}
             </h3>
 
             <p>
               {data.excerpt.rendered
                 .replace("&#8217;", "'")
+                .replace("&#8217;", "'")
                 .replace("&#8221;", "'")
                 .replace("&#8220;", "")
+                .replace("&#8230;", ":")
                 .replace("<p>", "")
                 .replace("</p>", "")}
             </p>
