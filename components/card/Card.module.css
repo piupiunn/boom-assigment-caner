@@ -13,8 +13,12 @@
   display: grid;
 }
 .cardimg {
+  width: 362px;
+  height: 220px;
 }
 .cardimg img {
+  width: 360px;
+  height: 220px;
 }
 .titledetails {
   height: 180px;
